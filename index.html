@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <title>FORMARCH | Architecture Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header-logo">
+            <a href="#header"><span class="header-title">FORM</span></a>
+            <svg class="header-svg" viewBox="0 0 50 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M39.9301 0.233315C39.8604 0.377747 39.651 1.05865 39.4696 1.73954C38.8694 4.02984 37.6132 7.4756 36.7618 9.14689C35.0171 12.572 32.2675 16.1003 30.132 17.6891C28.4013 18.9477 26.6147 18.8239 25.9727 17.4002C25.7912 16.9875 25.7215 16.4511 25.7354 15.4607C25.7354 13.8925 26.1402 12.4276 27.1032 10.4262C27.8709 8.83739 29.6016 6.40267 30.3274 5.8662C31.0672 5.35037 31.9465 5.32973 32.3373 5.84557C32.6862 6.32013 32.7002 6.7947 32.4071 7.64066C32.1558 8.38346 32.2396 8.85803 32.6304 8.85803C33.0491 8.85803 33.4678 7.70256 33.4678 6.58837C33.4678 4.95834 32.7839 4.11237 31.4859 4.11237C29.5877 4.133 27.4103 6.9185 25.2469 12.0975C24.6747 13.4592 22.1763 17.0082 21.1574 17.8954C20.7386 18.2668 20.1664 18.6176 19.8872 18.7001C19.4685 18.7826 19.3708 18.7414 19.1615 18.2874C18.8265 17.524 19.0638 16.059 19.8872 13.81C21.0876 10.5293 21.1853 10.2405 21.1853 9.55956C21.1853 8.58979 20.8084 8.30093 19.1754 8.05333C18.4217 7.95016 17.7797 7.80573 17.7378 7.74383C17.6959 7.70256 17.7378 7.31053 17.8355 6.87723C18.2263 5.14404 17.6261 3.06007 16.8166 3.36957C15.9931 3.67907 15.1836 5.26784 15.1836 6.58837C15.1836 7.06293 15.3232 7.45496 15.6721 7.9708C15.9373 8.36283 16.1606 8.77549 16.1606 8.85803C16.1606 8.94056 15.8117 9.74526 15.379 10.6325C13.411 14.7591 9.65643 19.2572 8.79106 18.5763C8.05132 17.9986 8.45609 14.6972 9.75413 10.4468C10.0612 9.45639 10.2985 8.48663 10.2706 8.30093C10.1589 7.4137 9.74017 7.847 8.40026 10.2405C6.62766 13.3561 4.4503 16.5955 3.4314 17.6065C2.41251 18.6382 1.51923 18.8445 1.17029 18.1224C0.63991 16.9875 1.08655 14.1814 2.20315 11.7467C4.42238 6.9185 8.2886 4.0092 9.6983 6.09317C10.3822 7.1042 11.0661 6.25823 10.4101 5.20594C9.93558 4.4425 9.30749 4.11237 8.2886 4.11237C6.59974 4.11237 4.85506 5.4948 2.97081 8.32156C0.974889 11.2928 -0.12775 14.5528 0.0118245 17.0494C0.0955693 18.6176 0.472421 19.4842 1.21217 19.8143C2.41251 20.3508 3.9897 18.9683 6.43225 15.2956C7.32553 13.9338 8.06528 12.8609 8.06528 12.9022C8.06528 12.9434 7.93966 13.6656 7.78613 14.4703C6.89285 19.2159 8.19089 21.2586 10.6614 19.0509C12.5596 17.3589 14.709 14.2639 16.2025 11.0864L17.0678 9.22943L18.1146 9.35323C19.9012 9.58019 20.2083 9.68336 20.2083 10.0754C20.2083 10.2611 20.0129 10.8801 19.7616 11.4578C18.8544 13.583 18.2263 15.7908 18.1565 17.1939C18.0728 18.5144 18.0867 18.5557 18.5752 19.2778C18.9661 19.8556 19.1754 20 19.5941 20C20.5991 20 22.3717 18.4525 23.9907 16.1416L24.6328 15.2337L24.7165 16.286C24.8282 17.6684 25.2469 18.6382 26.0425 19.3397C26.9497 20.1238 28.5269 20.1238 29.797 19.3397C31.6394 18.2255 34.6821 14.8829 35.9662 12.5514C36.6781 11.2721 36.6781 11.2309 35.6313 15.44C35.1986 17.1939 34.8636 18.8239 34.8915 19.0509C34.9194 19.3604 35.0311 19.4842 35.2963 19.4842C35.5894 19.4842 35.9941 18.8858 37.4457 16.3892C40.4326 11.2309 42.6937 8.17713 43.2939 8.50726C43.5033 8.63106 43.4335 9.55956 42.9729 12.3657C42.2052 16.9463 42.5402 19.381 43.9778 19.7318C44.6478 19.8762 45.876 19.0302 47.3555 17.3796C48.7652 15.7908 50.1051 13.7481 49.9935 13.3354C49.812 12.5927 49.4771 12.799 48.5 14.1814C46.6018 16.8844 44.9827 18.4319 44.243 18.3081C43.4056 18.1636 43.3218 16.3892 43.9359 12.3038C44.1732 10.7769 44.3547 9.14689 44.3547 8.67233C44.3547 6.71216 43.2241 6.44393 41.6748 8.09459C40.7257 9.08499 38.7996 11.953 37.4457 14.3877C36.9991 15.1924 36.6083 15.8321 36.5804 15.7908C36.4966 15.667 37.7947 10.7563 39.0648 6.3614C40.5443 1.18245 40.7118 0.439648 40.4326 0.171413C40.1674 -0.0761852 40.0837 -0.0555515 39.9301 0.233315Z" fill="#BF5E4B"/>
+            </svg>
+        </div>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="header-nav" id="site-nav">
+            <a href="#solutions">Why us</a>
+            <a href="#process">Process</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">Clients</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contacts</a>
+            <button class="btn-outline">Call us</button>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                ARCHITECTURE<span class="indent">THAT BENEFITS</span>YOUR BUSINESS
+            </h1>
+            <p class="hero-subtext">
+                We are bringing together architecture, strategy and image to create the expanses of the future.
+            </p>
+            <div class="hero-bottom">
+                <p class="hero-bottom-text">Our project is an investment<br>that results in growing business</p>
+                <button class="btn-cta">
+                    <span>DISCUSS THE PROJECT</span>
+                    <span class="cta-circle">
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none">
+                            <path d="M12 0L10.59 1.41L16.17 7H0V9H16.17L10.59 14.59L12 16L20 8L12 0Z" fill="white"/>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="section-header">
+            <h2 class="section-title">OUR SERVICES</h2>
+            <p class="section-sub">EVERY PROJECT WE DESIGN IS<br>AN INVESTMENT IN EFFICIENCY, BRAND, AND GROWTH</p>
+        </div>
+        <div class="service-list">
+            <article class="service-item">
+                <span class="service-num">NUMBER 1</span>
+                <h3 class="service-name">ARCHITECTURAL<br>DESIGN</h3>
+                <p class="service-desc">Functional and modern spaces that increase business profitability and value.</p>
+            </article>
+            <article class="service-item service-item-dark">
+                <span class="service-num">NUMBER 2</span>
+                <h3 class="service-name">INTERIOR DESIGN</h3>
+                <div class="service-visual">
+                    <img src="./images/background3.jpg" alt="Interior design preview" class="service-card-image" loading="lazy">
+                </div>
+                <p class="service-desc">Interiors that shape the brand's atmosphere and create an experience for customers and employees.</p>
+            </article>
+            <article class="service-item">
+                <span class="service-num">NUMBER 3</span>
+                <h3 class="service-name">3D VISUALIZATION</h3>
+                <p class="service-desc">Clear images of the future project that help you make quick decisions.</p>
+            </article>
+            <article class="service-item">
+                <span class="service-num">NUMBER 4</span>
+                <h3 class="service-name">AUTHOR<br>SUPERVISION</h3>
+                <p class="service-desc">From the first drawing to the final result we control every stage to preserve integrity, quality, and design precision.</p>
+            </article>
+        </div>
+    </section>
+    <section class="solutions" id="solutions">
+        <p class="solutions-label" style="font-size:34px;font-weight:700;letter-spacing:-0.08em;">SOLUTIONS</p>
+        <div class="solution-list">
+            <article class="solution-item solution-item-left">
+                <div class="solution-media">
+                    <img src="./images/background2.jpg" alt="ROI and efficiency exterior detail" loading="lazy">
+                </div>
+                <div class="solution-copy">
+                    <h3 class="solution-title">ROI & EFFICIENCY</h3>
+                    <p class="solution-desc">At the heart of every project. Architecture should not be an expense, but a tool. We calculate the return on investment and back up the effectiveness of our solutions with figures.</p>
+                </div>
+            </article>
+            <article class="solution-item solution-item-right">
+                <div class="solution-copy">
+                    <h3 class="solution-title">TURNKEY PROJECTS</h3>
+                    <p class="solution-desc">We incorporate economic feasibility, functionality, and future profitability into the project. We always discuss a project and provide you with a detailed estimate.</p>
+                </div>
+                <div class="solution-media">
+                    <img src="./images/background3.jpg" alt="Turnkey project interior detail" loading="lazy">
+                </div>
+            </article>
+            <article class="solution-item">
+                <div class="solution-copy">
+                    <h3 class="solution-title">FUNCTIONAL DESIGN</h3>
+                    <p class="solution-desc">The space is tested for efficiency: work areas, customer flows, atmosphere for the team, everything is tailored to specific business goals.</p>
+                </div>
+            </article>
+            <article class="solution-item solution-item-left">
+                <div class="solution-media">
+                    <img src="./images/background3.jpg" alt="Workspace planning reference" loading="lazy">
+                </div>
+                <div class="solution-copy">
+                    <h3 class="solution-title">PROCESS & DEADLINES</h3>
+                    <p class="solution-desc">We build our work around a clear roadmap with checkpoints and interim results. Each stage is visible in the CRM access. Fixed deadlines with legal guarantees.</p>
+                </div>
+            </article>
+            <article class="solution-item solution-item-right">
+                <div class="solution-copy">
+                    <h3 class="solution-title">BUDGET TRANSPARENCY</h3>
+                    <p class="solution-desc">We agree on the cost at the outset and maintain financial control at every stage, without any unforeseen expenses.</p>
+                </div>
+                <div class="solution-media">
+                    <img src="./images/background1.jpg" alt="Budget planning concept" loading="lazy">
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-grid">
+            <div class="about-left">
+                <p class="about-label">ABOUT US</p>
+                <button class="btn-outline-white">
+                    READ MORE
+                    <span class="btn-circle">
+                        <svg width="14" height="12" viewBox="0 0 14 13" fill="none">
+                            <path d="M8 0L6.59 1.41L11.17 6H0V8H11.17L6.59 11.59L8 13L14 6.5L8 0Z" fill="currentColor"/>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="about-right">
+                <div class="about-title-block">
+                    <h2 class="about-title title-1">WE HELP TO GET BEAUTIFUL</h2>
+                    <h2 class="about-title title-2">ARCHITECTURE THAT IS</h2>
+                    <h2 class="about-title title-2">A TOOL FOR BUSINESS</h2>
+                    <div class="title-desc-row">
+                        <p class="about-desc">Our solutions increase the profitability of facilities, strengthen the brand, and optimize space utilization. Thanks to clear processes and transparent conditions, you get predictable results without risks and unpredictable costs.</p>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-dot"></div>
+                        <div class="stat-bottom">
+                            <div class="stat-num">10</div>
+                            <div class="stat-text">years of experience in B2B architecture</div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-dot"></div>
+                        <div class="stat-bottom">
+                            <div class="stat-num">30</div>
+                            <div class="stat-text">a team of architects, designers, and engineers</div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-dot"></div>
+                        <div class="stat-bottom">
+                            <div class="stat-num">$300 K</div>
+                            <div class="stat-text">a portfolio of commercial projects starting from</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="portfolio" class="portfolio">
+        <img src="./images/background2.jpg" alt="Business Prime Center exterior" class="portfolio-img" loading="lazy">
+    </div>
+    <section class="case">
+        <div class="case-grid">
+            <div class="case-intro">
+                <h2 class="case-title">BUSINESS PRIME CENTER</h2>
+                <p class="case-sub">from concept to launch in<br>6 months</p>
+                <div class="case-actions">
+                    <button class="btn-see-more">
+                        SEE MORE
+                        <span class="see-circle">
+                            <svg width="14" height="12" viewBox="0 0 14 13" fill="none">
+                                <path d="M8 0L6.59 1.41L11.17 6H0V8H11.17L6.59 11.59L8 13L14 6.5L8 0Z" fill="white"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <button class="btn-portfolio">PORTFOLIO</button>
+                </div>
+            </div>
+            <div class="case-meta">
+                <table class="case-table">
+                    <tr>
+                        <td class="td-primary">Client</td>
+                        <td class="td-secondary">Prime Business Center</td>
+                    </tr>
+                    <tr>
+                        <td class="td-primary">Date</td>
+                        <td class="td-secondary">April 2023</td>
+                    </tr>
+                    <tr>
+                        <td class="td-primary">Task</td>
+                        <td class="td-secondary">Launch a modern business center in 6 months</td>
+                    </tr>
+                    <tr>
+                        <td class="td-primary">Result</td>
+                        <td class="td-secondary">Launched in 6 months, 95% of the space leased in the first month.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="process" id="process">
+        <div class="process-header">
+            <p class="process-label" style="font-size:30px;font-weight:700;letter-spacing:-0.08em;">HOW IT WORKS</p>
+            <p class="process-desc">We work according to a clear roadmap: from consultation and concept to turnkey implementation.</p>
+        </div>
+        <div class="process-body">
+            <svg class="process-svg" viewBox="0 0 935 841" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M934.5 51.9729C731.695 13.8849 320.723 -39.4384 299.273 51.9729C272.46 166.237 -19.9793 150.554 2.75899 247.454C20.9496 324.975 296.636 367.352 432.205 378.85C470.798 400.25 512.911 453.781 372.615 496.707C197.244 550.365 -6.87782 619.933 41.2668 715.154C79.7824 791.33 574.974 829.791 817.756 839.5" stroke="rgba(255,255,255,0.4)" stroke-width="3" fill="none"/>
+                <circle cx="934" cy="52" r="8" fill="white"/>
+                <circle cx="5" cy="220" r="8" fill="white"/>
+                <circle cx="470" cy="430" r="8" fill="white"/>
+                <circle cx="818" cy="839" r="8" fill="white"/>
+            </svg>
+            <div class="process-step first">
+                <div class="step-num">(01)</div>
+                <h3 class="step-title">Clear consultation</h3>
+                <p class="step-desc">You tell us about your goals, and we develop a preliminary action plan.</p>
+            </div>
+            <div class="process-step second">
+                <div class="step-num">(02)</div>
+                <h3 class="step-title">Project development</h3>
+                <p class="step-desc">Detailed architectural and engineering documentation.</p>
+            </div>
+            <div class="process-step third">
+                <div class="step-num">(03)</div>
+                <h3 class="step-title">Concept and visualization</h3>
+                <p class="step-desc">We create a concept and produce a 3D visualization so that you can see the result right away.</p>
+            </div>
+            <div class="process-step fourth">
+                <div class="step-num">(04)</div>
+                <h3 class="step-title">Author supervision</h3>
+                <p class="step-desc">We monitor deadlines, quality, and budget to ensure everything goes according to plan.</p>
+            </div>
+        </div>
+    </section>
+    <section class="faq" id="faq">
+        <div class="faq-grid">
+            <div class="faq-left">
+                <h2 class="faq-title">FREQUENTLY<br>ASKED<br>QUESTIONS</h2>
+            </div>
+            <div class="faq-right">
+                <p class="faq-sub">We've collected the most common questions clients ask before starting a project. Clear answers to help you understand our process and approach.</p>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false" onclick="toggleFaq(this)">
+                            <span>How long does it take to design and launch a project?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">Depending on the scope, a typical commercial project takes between 4 to 9 months from initial concept to full project delivery, including all documentation and supervision.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question open" type="button" aria-expanded="true" onclick="toggleFaq(this)">
+                            <span>Do you work only with commercial real estate?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer open">Yes. We specialize in B2B projects: business centers, retail spaces, office complexes, industrial facilities.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false" onclick="toggleFaq(this)">
+                            <span>What does "turnkey project delivery" include?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">It covers everything: concept development, full design documentation, 3D visualization, procurement management, construction supervision, and final handover.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false" onclick="toggleFaq(this)">
+                            <span>Can you help improve the profitability of the property?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">Absolutely. ROI analysis is part of our core service. We evaluate space efficiency, market positioning, and design choices through the lens of financial return.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false" onclick="toggleFaq(this)">
+                            <span>Do you work with both investors and developers?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">Yes. We partner with investors, developers, and business owners alike, anyone who needs architecture that performs as a business asset.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+    <div class="contact-overlay">
+        <div class="contact-copy">
+            <h2 class="contact-title">CONTACT US</h2>
+            <p class="contact-sub">
+                We are open to new projects and partnerships. Write to us or give us a call, 
+                let's discuss your needs and potential collaboration opportunities.
+            </p>
+        </div>
+        <form class="contact-form" action="#" method="POST">
+            <input type="text" name="username" class="contact-input" placeholder="Your name" required>
+            <input type="tel" name="phone" class="contact-input" placeholder="Phone number" required>
+            <button class="btn-send" type="submit">Send a request</button>
+        </form>
+    </div>
+</section>
+    <footer class="footer">
+    <div class="footer-top">
+        <ul class="footer-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+        <div class="footer-office">
+            <p class="footer-office-city">Kyiv, Ukraine</p>
+            <p class="footer-label">[address]</p>
+            <p class="footer-value">Formarch Architecture Studio<br>10 Arkhitektoriv St, Office 5<br>Kyiv, Ukraine, 03260</p>
+            <p class="footer-label">[phone]</p>
+            <p class="footer-value"><a href="tel:+380955687328">+ 38 (095) 568 73 28</a></p>
+            <p class="footer-label">[mail]</p>
+            <p class="footer-value"><a href="mailto:hello@formarchstudio.com">hello@formarchstudio.com</a></p>
+        </div>
+        <div class="footer-office">
+            <p class="footer-office-city">Dnipro, Ukraine</p>
+            <p class="footer-label">[address]</p>
+            <p class="footer-value">Formarch Architecture Studio<br>10 Arkhitektoriv St, Office 5<br>Dnipro, Ukraine, 49000</p>
+            <p class="footer-label">[phone]</p>
+            <p class="footer-value"><a href="tel:+380955687328">+ 38 (095) 568 73 28</a></p>
+            <p class="footer-label">[mail]</p>
+            <p class="footer-value"><a href="mailto:hello@formarchstudio.com">hello@formarchstudio.com</a></p>
+        </div>
+        <div class="footer-social">
+            <a href="#" title="Facebook" aria-label="Facebook">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" title="Instagram" aria-label="Instagram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" title="LinkedIn" aria-label="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p class="footer-wordmark">FORMARCH</p>
+    </div>
+</footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const siteNav = document.querySelector('.header-nav');
+
+        if (menuToggle && siteNav) {
+            menuToggle.addEventListener('click', () => {
+                const isOpen = siteNav.classList.toggle('is-open');
+                menuToggle.classList.toggle('is-open', isOpen);
+                menuToggle.setAttribute('aria-expanded', String(isOpen));
+            });
+
+            siteNav.querySelectorAll('a, button').forEach((item) => {
+                item.addEventListener('click', () => {
+                    siteNav.classList.remove('is-open');
+                    menuToggle.classList.remove('is-open');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
+        function toggleFaq(button) {
+            const item = button.parentElement;
+            const answer = item.querySelector('.faq-answer');
+            const isOpen = button.classList.contains('open');
+
+            document.querySelectorAll('.faq-question').forEach((question) => {
+                question.classList.remove('open');
+                question.setAttribute('aria-expanded', 'false');
+            });
+
+            document.querySelectorAll('.faq-answer').forEach((panel) => {
+                panel.classList.remove('open');
+            });
+
+            if (!isOpen) {
+                button.classList.add('open');
+                button.setAttribute('aria-expanded', 'true');
+                answer.classList.add('open');
+            }
+        }
+    </script>
+</body>
+</html>
